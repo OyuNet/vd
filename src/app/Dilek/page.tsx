@@ -6,7 +6,7 @@ export default function Dilek() {
   const router = useRouter();
 
   return (
-    <main className="bg-gray-200 h-screen flex flex-col items-center min-h-full">
+    <main className="bg-gray-200 h-screen flex flex-col items-center min-h-full overflow-y-auto">
       <button
         className="absolute top-0 flex justify-center w-full items-center p-6"
         onClick={() => {
