@@ -50,7 +50,7 @@ export default function Beraberiz() {
   }, []);
 
   return (
-    <main className="bg-gray-200 h-screen items-center min-h-full">
+    <main className="bg-gray-200 h-screen flex flex-col items-center min-h-full">
       <button
         className="absolute top-0 flex justify-center w-full items-center p-6"
         onClick={() => {
@@ -72,44 +72,46 @@ export default function Beraberiz() {
         </svg>
       </button>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-36">
-        <h1 className="text-5xl drop-shadow-2xl">
+      <div className="flex flex-col items-center w-full gap-4 pt-24 px-4 sm:pt-36">
+        <h1 className="text-3xl sm:text-5xl drop-shadow-2xl text-center">
           Dünyanın en mutlu adamıyım çünkü...
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
         <a
-          className="text-4xl drop-shadow-2xl text-blue-400"
+          className="text-2xl sm:text-4xl drop-shadow-2xl text-blue-400 text-center"
           href="https://open.spotify.com/intl-tr/track/3b8UW227uLkRDvd0w9e1Sw"
         >
           "Çünkü sen varsın diye."
         </a>
-        <h1 className="text-4xl">Yanımdasın diye, benimlesin diye... ❤️</h1>
+        <h1 className="text-2xl sm:text-4xl text-center">
+          Yanımdasın diye, benimlesin diye... ❤️
+        </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12 px-6">
-        <h1 className="text-2xl">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-lg sm:text-2xl text-center">
           Nazım Hikmet'in dediği gibi, "Ben sensiz de yaşarım ama seninle bir
           başka yaşarım.", sensizliğe yaşamak denirse tabii.
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12 px-6">
-        <h1 className="text-2xl">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-lg sm:text-2xl text-center">
           Aynı zamanda dünyanın en şanslı adamıyım, tüm bu sıfatlar sadece senin
           sayende bana ait.
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12 px-6">
-        <h1 className="text-2xl">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-lg sm:text-2xl text-center">
           Yine bir istatistik, biz çıkmaya başlayalı tamı tamına:
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12">
-        <h1 className="text-4xl drop-shadow-2xl bg-white rounded-2xl p-4">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-2xl sm:text-4xl drop-shadow-2xl bg-white rounded-2xl p-4 text-center">
           {day} gün {hour} saat {minute} dakika {second} saniye oldu.
         </h1>
       </div>

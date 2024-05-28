@@ -72,24 +72,26 @@ export default function Baslangic() {
         </svg>
       </button>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-48">
-        <h1 className="text-5xl drop-shadow-2xl">
+      <div className="flex flex-col items-center w-full gap-4 pt-24 px-4 sm:pt-48">
+        <h1 className="text-3xl sm:text-5xl drop-shadow-2xl text-center">
           Her şey 16 Eylül 2023 saat 23.08'de başladı...
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12">
-        <h1 className="text-4xl drop-shadow-2xl">O dakikadan şu ana kadar:</h1>
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-2xl sm:text-4xl drop-shadow-2xl text-center">
+          O dakikadan şu ana kadar:
+        </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12">
-        <h1 className="text-4xl drop-shadow-2xl bg-white rounded-2xl p-4">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-2xl sm:text-4xl drop-shadow-2xl bg-white rounded-2xl p-4 text-center">
           {day} gün {hour} saat {minute} dakika {second} saniye geçti.
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12">
-        <h1 className="text-2xl drop-shadow-2xl m-6 text-center">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-lg sm:text-2xl drop-shadow-2xl m-6 text-center">
           Her saniyesinden inanılmaz keyif aldım, hala da alıyorum; beraber nice
           saniyelere! Kalan ömrümce de aynı keyfi almak istiyorum. Hep yanında
           olmak istiyorum. Şaka değil.

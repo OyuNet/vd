@@ -5,12 +5,12 @@ interface PoemBoxProps {
 }
 
 const PoemBox: React.FC<PoemBoxProps> = ({ poems }) => {
-  const [open, setOpen] = React.useState(false);
-
   return (
-    <div className="rounded-2xl bg-white drop-shadow-2xl p-4 w-80">
-      {poems.map((x, index) => (
-        <p key={index}>{x}</p>
+    <div className="rounded-2xl bg-white drop-shadow-2xl p-4 w-80 mb-4">
+      {poems.map((poem, index) => (
+        <p key={index} className="text-center">
+          {poem}
+        </p>
       ))}
     </div>
   );

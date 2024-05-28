@@ -7,7 +7,7 @@ export default function Siirler() {
   const router = useRouter();
 
   return (
-    <main className="bg-gray-200 h-screen items-center min-h-full">
+    <main className="bg-gray-200 h-screen overflow-y-auto flex flex-col items-center">
       <button
         className="absolute top-0 flex justify-center w-full items-center p-6"
         onClick={() => {
@@ -29,21 +29,21 @@ export default function Siirler() {
         </svg>
       </button>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-32">
-        <h1 className="text-5xl drop-shadow-2xl">
+      <div className="flex flex-col items-center w-full gap-4 pt-32 px-4 sm:pt-36">
+        <h1 className="text-3xl sm:text-5xl drop-shadow-2xl text-center">
           Hislerim öylesine yoğun ki...
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-12 px-12">
-        <h1 className="text-2xl text-center">
+      <div className="flex flex-col items-center w-full gap-4 pt-8 px-4 sm:pt-12">
+        <h1 className="text-lg sm:text-2xl text-center">
           Sana olan hislerimi şiirler olmadan ifade edemezdim. Bugüne kadar sana
           bir dünya şiir yazdım, kimisini seninle paylaştım, kimisini içime
           gömdüm. Neler yazmışım kısaca bir hatırlayalım.
         </h1>
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-6 px-12">
+      <div className="flex flex-col items-center w-full gap-4 pt-6 px-4 sm:pt-12">
         <PoemBox
           poems={[
             "Göz bebeğindeki saklı dünyanın müptelasıyım,",
@@ -87,8 +87,8 @@ export default function Siirler() {
         />
       </div>
 
-      <div className="justify-center flex w-full gap-4 items-center pt-6 px-12">
-        <h1 className="text-2xl">
+      <div className="flex flex-col items-center w-full gap-4 pt-6 px-4 sm:pt-12">
+        <h1 className="text-lg sm:text-2xl text-center">
           Ve daha niceleri... Yazdım, yazıyorum, yazacağım. Senelerce.
         </h1>
       </div>
